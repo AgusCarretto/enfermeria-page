@@ -1,16 +1,46 @@
-# React + Vite
+# 🩺 Lic. Cecilia Machado - Servicios de Enfermería
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Landing Page desarrollada para profesional de la salud. Enfocada en la accesibilidad, la confianza visual y la conversión rápida de pacientes a través de WhatsApp.
 
-Currently, two official plugins are available:
+[![Deploy Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://tu-link-en-vercel.app)
+![Status](https://img.shields.io/badge/Estado-Esperando_Contenido-yellow?style=for-the-badge)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Objetivo del Proyecto
 
-## React Compiler
+El objetivo principal es establecer una presencia digital sólida para el servicio de enfermería domiciliaria. La web actúa como una tarjeta de presentación digital que valida la profesionalidad del servicio y facilita el contacto inmediato.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Actualmente, el proyecto se encuentra en **fase de maquetación final**, con la estructura técnica y de diseño completada, a la espera de la redacción final de textos por parte del cliente.
 
-## Expanding the ESLint configuration
+## ⚡ Stack Tecnológico
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Se priorizó la velocidad de carga y la facilidad de mantenimiento:
+
+* ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react) **React + Vite** - Para una carga instantánea y navegación fluida.
+* ![Tailwind](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) **Tailwind CSS** - Diseño totalmente responsive y estilizado moderno.
+* ![Framer Motion](https://img.shields.io/badge/-Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white) **Framer Motion** - Micro-interacciones y animaciones suaves (Fade-in).
+* **WhatsApp API** - Integración directa para contacto sin fricción.
+
+## ✨ Características Clave
+
+* **Diseño "Trust-First":** Uso de paleta de colores y tipografías seleccionadas para transmitir calma y profesionalismo médico.
+* **Mobile First:** Optimizada al 100% para celulares, dado que el 80% de las búsquedas de servicios de emergencia/salud ocurren en móviles.
+* **Navegación SPA:** Smooth scroll entre secciones (Servicios, Sobre Mí, Contacto) sin recargas de página.
+* **Componentes Reutilizables:** Arquitectura modular (Cards de servicios, Testimonios, Botones CTA) lista para recibir el contenido real.
+
+## 🚧 Estado Actual y Próximos Pasos
+
+Aunque la aplicación es funcional, se están utilizando datos "mock" (placeholders) mientras se finaliza la estrategia de contenidos con el cliente.
+
+- [x] Desarrollo de estructura Frontend.
+- [x] Implementación de diseño Responsive.
+- [x] Deploy en entorno de Staging (Vercel).
+- [ ] Carga de textos reales y fotografías profesionales.
+- [ ] Optimización SEO local (Google My Business + Meta tags).
+
+## 📂 Estructura
+
+```text
+src/
+├── components/   # UI Kit (Navbar, Hero, ServiceCard, Footer)
+├── assets/       # Iconos e imágenes optimizadas
+└── constants/    # Archivo de textos (separado para fácil edición)
