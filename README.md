@@ -2,9 +2,6 @@
 
 > Landing Page desarrollada para profesional de la salud. Enfocada en la accesibilidad, la confianza visual y la conversión rápida de pacientes a través de WhatsApp.
 
-[![Deploy Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://tu-link-en-vercel.app)
-![Status](https://img.shields.io/badge/Estado-Esperando_Contenido-yellow?style=for-the-badge)
-
 ## 🎯 Objetivo del Proyecto
 
 El objetivo principal es establecer una presencia digital sólida para el servicio de enfermería domiciliaria. La web actúa como una tarjeta de presentación digital que valida la profesionalidad del servicio y facilita el contacto inmediato.
